@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* css variables */
+/* :root{
+    --navbar-height:59px;
+} */
+/* navigation bar */
+#nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    font-family: 'Nerko One', cursive;
+}
+
+#nav::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+/*navigation bar: logo&img */
+#logo{
+    margin: 10px 34px;
+}
+#logo img{
+    margin: 3px 5px;
+    height: 80px;
+    width: 80px;
+}
+/*navigation bar: list styling */
+/* #nav{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    font-family: 'Nerko One', cursive;
+
+    /* border: 3px solid red;} */
+
+#nav ul{
+    display: flex;
+}
+#nav ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#nav ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 22px;
+    text-decoration: none;
+    color: white;
+}
+#nav ul li a:hover{
+    color: black;
+    background-color: white;
+}
+/* home sectionn */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 525px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('../img/img3.jpg') no-repeat center center/cover;
+    height: 642px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    top: 0px;
+    left: 0px;
+    /* border: 3px solid black; */
+
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Nerko One', cursive;
+    
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Nerko One', cursive;
+    
+}
+.btn{
+    padding: 6px 20px;
+    color: white;
+    background-color: brown;
+    border: 2px solid white;
+    margin: 17px;
+    border-radius: 22px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* sevices section */
+/* #services-cont{ */
+    /* background-color: rgb(238, 188, 188); */
+    /* border: 3px solid brown; */
+/* } */
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    /* background-color: rgb(233, 219, 219); */
+    border: 4px solid red;
+    margin-bottom: 20px;
+}
+#services .box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+#services .box p{
+    font-family: 'Nerko One', cursive;
+}
+/* clients section */
+#client-section{
+    /* height: 334px; */
+    position: relative;
+}
+#client-section::before{
+ content: "";
+ position: absolute;
+ background: url('../img/img4.jpg');
+ height: 100%;
+ width: 100%;
+ z-index: -1;
+ opacity: 0.4;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    height: 124px;
+}
+.clients-items{
+    padding: 34px;
+}
+/* contact section */
+#contact{
+    position: relative;
+    
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../img/c2.jpg') no-repeat center center/cover;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input, 
+#contact-box textarea {
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1.1rem;
+
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Nerko One', cursive;
+}
+/* footer area */
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px 12px;
+}
+/* utility class -- can be use again */
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+}
+.h-sec {
+    font-size: 1.8rem;
+    padding: 12px;
+}
+.center{
+    text-align: center;
+    font-family: 'Nerko One', cursive;
+}
+.h-primary-center{
+    font-size: 2.8rem;
+    text-align: center;
+    font-family: 'Nerko One', cursive; ;
+}
+
+
+
+
+
+
